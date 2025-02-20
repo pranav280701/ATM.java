@@ -1,5 +1,4 @@
-lsdajfb;ajkfh;kjdfjas'kdjgbs
-hjsdfbajsbjadbvj
-sjvba;jb
-skjvbksj
-kjfsbh
+interface ATM {
+    double getBalance();
+    boolean getCash(double amount);
+}
