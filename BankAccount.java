@@ -1,4 +1,7 @@
-class BankAccount implements ATM {
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+public class BankAccount implements ATM {
     private double balance;
     private static final String LOG_FILE = "transaction_log.txt";
 
